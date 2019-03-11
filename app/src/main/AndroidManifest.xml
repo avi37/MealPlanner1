@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.mealmanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="Meal Planner"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegisterCookActivity"
+            android:label="Register Your Cook"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MainNavigation"
+            android:label="@string/title_activity_main_navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".SelectMenuActivity"
+            android:label="Select Menu"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AboutDevActivity"
+            android:label="About Developers"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ViewWeekPlan"
+            android:label="My Weekly Plan"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".CheckTodayMenu"
+            android:label="Today&apos;s Menu"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MyProfileActivity"
+            android:label="My Profile"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".CreateWeekMenu"
+            android:label="Create Weekly Meal Plan"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".RepeatMealActivity"
+            android:label="Select from meals"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".WeeklyMenuActivity"
+            android:label="Weekly Menu"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MyRecipesActivity"
+            android:label="My Recipes"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

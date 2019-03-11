@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/rep_meal_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="12sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rep_meal_cardView_tv_recipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teaGreen"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="Title"
+                android:textColor="@color/raisinBlackDark"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/raisinBlackDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:text="-: Items :-"
+                android:textColor="@color/raisinBlack"
+                android:textSize="12sp" />
+
+            <ListView
+                android:id="@+id/rep_meal_cardView_list_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

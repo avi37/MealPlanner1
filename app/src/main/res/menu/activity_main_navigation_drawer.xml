@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_menu_dashOpt"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_nav_dashboard"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_nav_my_profile"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_my_recipes"
+            android:icon="@drawable/ic_nav_my_recipes"
+            android:title="My Recipes" />
+
+    </group>
+
+    <group
+        android:id="@+id/nav_menu_logoutOpt"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_nav_logout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_quit"
+            android:icon="@drawable/ic_nav_quit"
+            android:title="Quit" />
+    </group>
+
+    <group
+        android:id="@+id/nav_menu_aboutOpt"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about_dev"
+            android:icon="@drawable/ic_nav_about_dev"
+            android:title="About Developers" />
+    </group>
+
+</menu>
+
+
